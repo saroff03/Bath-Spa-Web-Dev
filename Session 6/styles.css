@@ -3,6 +3,7 @@
   margin: 0;
   color: white;
   background-color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .navBar{
   background-color: black;
@@ -18,7 +19,7 @@
 }
 .banner{
   color: white;
-  font-size: 40px;
+  font-size: 4vw;
   text-align: center;
   background-image: url(images/banner.jpg);
   width: 100%;
