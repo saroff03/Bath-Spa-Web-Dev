@@ -1,0 +1,41 @@
+.grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: start;
+  justify-items: start;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+.item1 {
+  width: 400px;
+  height: 350px;
+}
+
+.item2 {
+  width: 200px;
+  height: 350px;
+}
+
+.item3 {
+  width: 300px;
+  height: 250px;
+}
+
+.item4 {
+  width: 500px;
+  height: 350px;
+}
+
+.item5 {
+  width: 190px;
+  height: 250px;
+}
+
+.item6 {
+  width: 350px;
+  height: 550px;
+}
