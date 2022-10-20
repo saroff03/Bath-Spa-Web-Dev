@@ -12,8 +12,11 @@
   <title>Boostrap Survey Form</title>
 </head>
 <body>
-  <div class="container mt-5 pb-2">
+  <div class="container pb-2">
     <form action="" class="rounded row g-3">
+      <div class="col-md-12 text-center" id="headerDiv">
+        <h2>Survey Form</h2>
+      </div>
       <div class="col-md-6">
         <label for="firstName" class="form-label">First Name:</label>
         <input type="text" class="form-control" id="firstName" required>
@@ -55,10 +58,6 @@
         </select>
       </div>
       <div class="col-md-12">
-        <label for="comments" class="form-label">Additional feedback:</label>
-        <textarea name="" id="additionalFeedback" rows="3" class="form-control"></textarea>
-      </div>
-      <div class="col-md-12">
         <label for="recommend" class="form-label" id="recommend">Would you recommend us to a friend?
         </label>
       </div>
@@ -76,7 +75,14 @@
           <label class="form-check-label" for="notSure">Not sure</label>
         </div>
       </div>
-      </div> 
+      <div class="col-md-12">
+        <label for="comments" class="form-label">Additional feedback:</label>
+        <textarea name="" id="additionalFeedback" rows="3" class="form-control"></textarea>
+      </div>
+      <div class="col-md-12 text-center">
+        <input class="btn" type="submit" value="Submit">
+      </div>
+      </div>
     </form>
   </div>
 
