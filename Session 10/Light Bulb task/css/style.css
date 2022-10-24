@@ -1,0 +1,11 @@
+body {
+  background: url("/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn, .btn:hover {
+  background-color: white;
+  margin-top: 140px;
+}
