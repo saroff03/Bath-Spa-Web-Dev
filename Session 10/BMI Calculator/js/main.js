@@ -25,4 +25,4 @@ function calculateBMI() {
   
       else result.innerHTML =`Over Weight : <span>${bmi}</span>`;
     }
-}
+};

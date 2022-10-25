@@ -1,3 +1,9 @@
+const milkBtn = document.getElementById("milkBtn");
+const eggsBtn = document.getElementById("eggsBtn");
+const breadBtn = document.getElementById("breadBtn");
+const applesBtn = document.getElementById("applesBtn");
+const juiceBtn = document.getElementById("juiceBtn");
+
 let shoppingCart = [];
 document.getElementById("shoppingCart").innerHTML = shoppingCart;
 
@@ -71,3 +77,9 @@ function checkForJuice() {
     addJuice();
   }
 }
+
+milkBtn.addEventListener("click", checkForMilk);
+eggsBtn.addEventListener("click", checkForEggs);
+breadBtn.addEventListener("click", checkForBread);
+applesBtn.addEventListener("click", checkForApples);
+juiceBtn.addEventListener("click", checkForJuice);
