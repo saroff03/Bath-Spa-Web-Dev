@@ -1,0 +1,44 @@
+body {
+  background: url("/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+#heading {
+  color: white;
+  text-decoration: underline;
+}
+
+#heading2 {
+  text-decoration: underline;
+}
+
+.card {
+  width: 18rem;
+}
+
+#shoppingCart {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 10px;
+  width: 28rem;
+  margin: auto;
+}
+
+.container-sm {
+  gap: 0.5rem;
+}
+
+img {
+  width: 80px;
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}

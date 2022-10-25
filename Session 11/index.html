@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Shoping list">
+  <meta name="keywords" content="HTML, CSS, JS, JavaScript">
+  <meta name="author" content="Stoyan Sarov">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <title>Shopping list</title>
+</head>
+<body>
+  <div class="d-flex align-items-center">
+    <div class="container text-center">
+      <h1 id="heading">Shopping List</h1>
+    </div>
+  </div>
+  <div class="container-sm d-sm-flex mt-3 align-items-center justify-content-center">
+    <div class="card text-center">
+      <div class="card-body">
+        <img src="images/milk.png" alt="milk">
+        <h2>Milk</h2>
+        <button class="btn btn-primary" id="milkBtn" onclick="checkForMilk()">Add to cart</button>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <img src="images/eggs.png" alt="Eggs">
+        <h2>Eggs</h2>
+        <button class="btn btn-primary" id="eggsBtn" onclick="checkForEggs()">Add to cart</button>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <img src="images/bread.png" alt="bread">
+        <h2>Bread</h2>
+        <button class="btn btn-primary" id="breadBtn" onclick="checkForBread()">Add to cart</button>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <img src="images/apple.png" alt="Apples">
+        <h2>Apples</h2>
+        <button class="btn btn-primary" id="applesBtn" onclick="checkForApples()">Add to cart</button>
+      </div>
+    </div>
+    <div class="card text-center">
+      <div class="card-body">
+        <img src="images/juice-box.png" alt="Juice">
+        <h2>Juice</h2>
+        <button class="btn btn-primary" id="juiceBtn" onclick="checkForJuice()">Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex align-items-center mt-5">
+    <div class="container text-center">
+      <h1 id="heading2">Shopping Cart</h1>
+      <div class="container text-center">
+        <p id="shoppingCart"></p>
+      </div>
+    </div>
+</body>
+</html>
